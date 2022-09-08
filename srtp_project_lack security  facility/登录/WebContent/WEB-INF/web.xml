@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>11.3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>findservlet_showlist</display-name>
+    <servlet-name>findservlet_showlist</servlet-name>
+    <servlet-class>bao.findservlet_showlist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findservlet_showlist</servlet-name>
+    <url-pattern>/findservlet_showlist</url-pattern>
+  </servlet-mapping>
+    
+    
+      <servlet>
+    <description></description>
+    <display-name>findservlet_showlist_teachers</display-name>
+    <servlet-name>findservlet_showlist_teachers</servlet-name>
+    <servlet-class>bao.findservlet_showlist_teachers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findservlet_showlist_teachers</servlet-name>
+    <url-pattern>/findservlet_showlist_teachers</url-pattern>
+  </servlet-mapping>
+    
+    
+        <servlet>
+    <description></description>
+    <display-name>chouqukebiaoservlet_paike</display-name>
+    <servlet-name>chouqukebiaoservlet_paike</servlet-name>
+    <servlet-class>bao.chouqukebiaoservlet_paike</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>chouqukebiaoservlet_paike</servlet-name>
+    <url-pattern>/chouqukebiaoservlet_paike</url-pattern>
+  </servlet-mapping>
+    
+            <servlet>
+    <description></description>
+    <display-name>chouqukebiaoservlet_paikewancheng</display-name>
+    <servlet-name>chouqukebiaoservlet_paikewancheng</servlet-name>
+    <servlet-class>bao.chouqukebiaoservlet_paikewancheng</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>chouqukebiaoservlet_paikewancheng</servlet-name>
+    <url-pattern>/chouqukebiaoservlet_paikewancheng</url-pattern>
+  </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet>
+    <description></description>
+    <display-name>findservlet_changepwd</display-name>
+    <servlet-name>findservlet_changepwd</servlet-name>
+    <servlet-class>bao.findservlet_changepwd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findservlet_changepwd</servlet-name>
+    <url-pattern>/findservlet_changepwd</url-pattern>
+  </servlet-mapping>
+</web-app>
